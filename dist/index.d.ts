@@ -25,7 +25,7 @@ declare class HttpClient {
  * Options for constructing the NotificationGate client.
  */
 interface ClientOptions {
-    /** Base URL for the API. Defaults to https://api.notificationgate.com */
+    /** Base URL for the API. Defaults to https://notificationgate.com/api */
     baseUrl?: string;
     /** Request timeout in milliseconds. Defaults to 30000. */
     timeout?: number;

@@ -12,7 +12,7 @@ export { Suppressions } from './suppressions.js';
 export { Webhooks } from './webhooks.js';
 export type * from './types.js';
 
-const DEFAULT_BASE_URL = 'https://api.notificationgate.com';
+const DEFAULT_BASE_URL = 'https://notificationgate.com/api';
 
 /**
  * The main NotificationGate client.

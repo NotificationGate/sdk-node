@@ -1,7 +1,7 @@
 import { APIError, RateLimitError } from './errors.js';
 
 const SDK_VERSION = '0.1.0';
-const DEFAULT_BASE_URL = 'https://api.notificationgate.com';
+const DEFAULT_BASE_URL = 'https://notificationgate.com/api';
 const DEFAULT_TIMEOUT_MS = 30_000;
 
 export interface HttpClientOptions {
